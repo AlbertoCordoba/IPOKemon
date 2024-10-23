@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-0AK4J40H</Machine>
+    <WindowsUser>G531</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>3eca48ca-af82-43e2-a0ee-d5618596ad9a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=usuario</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\IPOkemon.exe">
+      <PackagePath>entrypoint\IPOkemon.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Energia.png">
+      <PackagePath>AssetsAronMCC\Energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\escudoRoca.png">
+      <PackagePath>AssetsAronMCC\escudoRoca.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsAronMCC\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\PocionEnergia.png">
+      <PackagePath>AssetsAronMCC\PocionEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\PocionVida.png">
+      <PackagePath>AssetsAronMCC\PocionVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\SplashScreen.scale-100.png">
+      <PackagePath>AssetsAronMCC\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\SplashScreen.scale-125.png">
+      <PackagePath>AssetsAronMCC\SplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\SplashScreen.scale-150.png">
+      <PackagePath>AssetsAronMCC\SplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\SplashScreen.scale-200.png">
+      <PackagePath>AssetsAronMCC\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\SplashScreen.scale-400.png">
+      <PackagePath>AssetsAronMCC\SplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsAronMCC\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsAronMCC\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsAronMCC\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\StoreLogo.png">
+      <PackagePath>AssetsAronMCC\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Vida.png">
+      <PackagePath>AssetsAronMCC\Vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsAronMCC\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\corazonVida.png">
+      <PackagePath>AssetsArticunoACG\corazonVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\energia.png">
+      <PackagePath>AssetsArticunoACG\energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\fondoPokemon1.png">
+      <PackagePath>AssetsArticunoACG\fondoPokemon1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsArticunoACG\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\pocimaEnergia.png">
+      <PackagePath>AssetsArticunoACG\pocimaEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\pocimaVida.png">
+      <PackagePath>AssetsArticunoACG\pocimaVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\SplashScreen.scale-200.png">
+      <PackagePath>AssetsArticunoACG\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsArticunoACG\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsArticunoACG\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsArticunoACG\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\StoreLogo.png">
+      <PackagePath>AssetsArticunoACG\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsArticunoACG\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\cansado.png">
+      <PackagePath>AssetsAzumarillACR\cansado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\corazon.png">
+      <PackagePath>AssetsAzumarillACR\corazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\debil.png">
+      <PackagePath>AssetsAzumarillACR\debil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\derrotado.png">
+      <PackagePath>AssetsAzumarillACR\derrotado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\escudo.png">
+      <PackagePath>AssetsAzumarillACR\escudo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\fuerte.png">
+      <PackagePath>AssetsAzumarillACR\fuerte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\herido.png">
+      <PackagePath>AssetsAzumarillACR\herido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsAzumarillACR\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\pocion amarilla.png">
+      <PackagePath>AssetsAzumarillACR\pocion amarilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\pocion amarilla1.png">
+      <PackagePath>AssetsAzumarillACR\pocion amarilla1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\pocion roja.png">
+      <PackagePath>AssetsAzumarillACR\pocion roja.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\pocion roja1.png">
+      <PackagePath>AssetsAzumarillACR\pocion roja1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\rayo.png">
+      <PackagePath>AssetsAzumarillACR\rayo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\SplashScreen.scale-200.png">
+      <PackagePath>AssetsAzumarillACR\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsAzumarillACR\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsAzumarillACR\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsAzumarillACR\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\StoreLogo.png">
+      <PackagePath>AssetsAzumarillACR\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\suenio.png">
+      <PackagePath>AssetsAzumarillACR\suenio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\Surf.png">
+      <PackagePath>AssetsAzumarillACR\Surf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsAzumarillACR\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\brillo.png">
+      <PackagePath>AssetsButterFreeACC\brillo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\capullo.png">
+      <PackagePath>AssetsButterFreeACC\capullo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\cicatrizGrande.png">
+      <PackagePath>AssetsButterFreeACC\cicatrizGrande.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\energia.png">
+      <PackagePath>AssetsButterFreeACC\energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\escudo.png">
+      <PackagePath>AssetsButterFreeACC\escudo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsButterFreeACC\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\nube.png">
+      <PackagePath>AssetsButterFreeACC\nube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\ojos_muerte.png">
+      <PackagePath>AssetsButterFreeACC\ojos_muerte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\pocima_energia.png">
+      <PackagePath>AssetsButterFreeACC\pocima_energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\pocima_vida.png">
+      <PackagePath>AssetsButterFreeACC\pocima_vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\SplashScreen.scale-200.png">
+      <PackagePath>AssetsButterFreeACC\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsButterFreeACC\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsButterFreeACC\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsButterFreeACC\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\StoreLogo.png">
+      <PackagePath>AssetsButterFreeACC\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\tirita.png">
+      <PackagePath>AssetsButterFreeACC\tirita.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\tronado.png">
+      <PackagePath>AssetsButterFreeACC\tronado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\vida.png">
+      <PackagePath>AssetsButterFreeACC\vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsButterFreeACC\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\corazon.png">
+      <PackagePath>AssetsChandelureNDAA\corazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsChandelureNDAA\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\pocionAmarilla.png">
+      <PackagePath>AssetsChandelureNDAA\pocionAmarilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\pocionMorada.png">
+      <PackagePath>AssetsChandelureNDAA\pocionMorada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\rayo.png">
+      <PackagePath>AssetsChandelureNDAA\rayo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\SplashScreen.scale-200.png">
+      <PackagePath>AssetsChandelureNDAA\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsChandelureNDAA\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsChandelureNDAA\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsChandelureNDAA\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\StoreLogo.png">
+      <PackagePath>AssetsChandelureNDAA\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsChandelureNDAA\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Energia.png">
+      <PackagePath>AssetsCharmanderFJDR\Energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\escudoFuego.png">
+      <PackagePath>AssetsCharmanderFJDR\escudoFuego.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\llama fuego.png">
+      <PackagePath>AssetsCharmanderFJDR\llama fuego.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsCharmanderFJDR\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\PocionEnergia.png">
+      <PackagePath>AssetsCharmanderFJDR\PocionEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\PocionVida.png">
+      <PackagePath>AssetsCharmanderFJDR\PocionVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\SplashScreen.scale-200.png">
+      <PackagePath>AssetsCharmanderFJDR\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsCharmanderFJDR\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsCharmanderFJDR\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsCharmanderFJDR\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\StoreLogo.png">
+      <PackagePath>AssetsCharmanderFJDR\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Vida.png">
+      <PackagePath>AssetsCharmanderFJDR\Vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsCharmanderFJDR\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\escudo.png">
+      <PackagePath>AssetsDracofireGDLRS\escudo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\imFondo.png">
+      <PackagePath>AssetsDracofireGDLRS\imFondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsDracofireGDLRS\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\pocion_escudo.png">
+      <PackagePath>AssetsDracofireGDLRS\pocion_escudo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\pocion_vida.png">
+      <PackagePath>AssetsDracofireGDLRS\pocion_vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\SplashScreen.scale-200.png">
+      <PackagePath>AssetsDracofireGDLRS\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsDracofireGDLRS\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsDracofireGDLRS\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsDracofireGDLRS\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\StoreLogo.png">
+      <PackagePath>AssetsDracofireGDLRS\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\vida.png">
+      <PackagePath>AssetsDracofireGDLRS\vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsDracofireGDLRS\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\angel.png">
+      <PackagePath>AssetsDragoniteCSD\angel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\arañazo.png">
+      <PackagePath>AssetsDragoniteCSD\arañazo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\colazo.png">
+      <PackagePath>AssetsDragoniteCSD\colazo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\escudoesfera.png">
+      <PackagePath>AssetsDragoniteCSD\escudoesfera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\escudoReal.png">
+      <PackagePath>AssetsDragoniteCSD\escudoReal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\explosion.png">
+      <PackagePath>AssetsDragoniteCSD\explosion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\herido.png">
+      <PackagePath>AssetsDragoniteCSD\herido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\humoenfado.png">
+      <PackagePath>AssetsDragoniteCSD\humoenfado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\img_meteorito.png">
+      <PackagePath>AssetsDragoniteCSD\img_meteorito.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\img_stamina.png">
+      <PackagePath>AssetsDragoniteCSD\img_stamina.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsDragoniteCSD\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\muerto.png">
+      <PackagePath>AssetsDragoniteCSD\muerto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\oxigeno.png">
+      <PackagePath>AssetsDragoniteCSD\oxigeno.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\pocionstamina.png">
+      <PackagePath>AssetsDragoniteCSD\pocionstamina.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\pocionvida.png">
+      <PackagePath>AssetsDragoniteCSD\pocionvida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\recuperarenergiavida.png">
+      <PackagePath>AssetsDragoniteCSD\recuperarenergiavida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\SplashScreen.scale-200.png">
+      <PackagePath>AssetsDragoniteCSD\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsDragoniteCSD\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsDragoniteCSD\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsDragoniteCSD\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\stamina.png">
+      <PackagePath>AssetsDragoniteCSD\stamina.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\StoreLogo.png">
+      <PackagePath>AssetsDragoniteCSD\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\sudor.png">
+      <PackagePath>AssetsDragoniteCSD\sudor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\termometro.png">
+      <PackagePath>AssetsDragoniteCSD\termometro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Vidapokemon2.png">
+      <PackagePath>AssetsDragoniteCSD\Vidapokemon2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsDragoniteCSD\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\corazon.png">
+      <PackagePath>AssetsGengarJCC\corazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\energia.png">
+      <PackagePath>AssetsGengarJCC\energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsGengarJCC\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\pocion.png">
+      <PackagePath>AssetsGengarJCC\pocion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\pocionEnergia.png">
+      <PackagePath>AssetsGengarJCC\pocionEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\SplashScreen.png">
+      <PackagePath>AssetsGengarJCC\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsGengarJCC\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsGengarJCC\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsGengarJCC\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\StoreLogo.png">
+      <PackagePath>AssetsGengarJCC\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsGengarJCC\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Corazon.png">
+      <PackagePath>AssetsMakuhitaAPQ\Corazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Energia.png">
+      <PackagePath>AssetsMakuhitaAPQ\Energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsMakuhitaAPQ\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\PocionEnergia.png">
+      <PackagePath>AssetsMakuhitaAPQ\PocionEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\PocionVida.png">
+      <PackagePath>AssetsMakuhitaAPQ\PocionVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\SplashScreen.scale-200.png">
+      <PackagePath>AssetsMakuhitaAPQ\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsMakuhitaAPQ\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsMakuhitaAPQ\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsMakuhitaAPQ\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\StoreLogo.png">
+      <PackagePath>AssetsMakuhitaAPQ\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsMakuhitaAPQ\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\cansado.png">
+      <PackagePath>Assets\cansado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\background.png">
+      <PackagePath>Assets\CharizardASM\background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\background1.png">
+      <PackagePath>Assets\CharizardASM\background1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\blue_potion.png">
+      <PackagePath>Assets\CharizardASM\blue_potion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\espiral.png">
+      <PackagePath>Assets\CharizardASM\espiral.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\garra.png">
+      <PackagePath>Assets\CharizardASM\garra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\green_potion.png">
+      <PackagePath>Assets\CharizardASM\green_potion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\heart.png">
+      <PackagePath>Assets\CharizardASM\heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\lanzallamas.png">
+      <PackagePath>Assets\CharizardASM\lanzallamas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\lanzallamas_azul.png">
+      <PackagePath>Assets\CharizardASM\lanzallamas_azul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\mano_mewing.png">
+      <PackagePath>Assets\CharizardASM\mano_mewing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\mano_mewing_black.png">
+      <PackagePath>Assets\CharizardASM\mano_mewing_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\mewing.png">
+      <PackagePath>Assets\CharizardASM\mewing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\mewing_black.png">
+      <PackagePath>Assets\CharizardASM\mewing_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\shield.png">
+      <PackagePath>Assets\CharizardASM\shield.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CombatePokemonStyle.png">
+      <PackagePath>Assets\CombatePokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\corazon.png">
+      <PackagePath>Assets\corazon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\corazonVida.png">
+      <PackagePath>Assets\corazonVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\debil.png">
+      <PackagePath>Assets\debil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\derrotado.png">
+      <PackagePath>Assets\derrotado.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\DosJugadores.png">
+      <PackagePath>Assets\DosJugadores.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\ElegirPokemonStyle.png">
+      <PackagePath>Assets\ElegirPokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\energia.png">
+      <PackagePath>Assets\energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\escudo.png">
+      <PackagePath>Assets\escudo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\flecha-atras.png">
+      <PackagePath>Assets\flecha-atras.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondoinicio.png">
+      <PackagePath>Assets\fondoinicio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondoPokeAyuda.png">
+      <PackagePath>Assets\fondoPokeAyuda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondoPokeData.png">
+      <PackagePath>Assets\fondoPokeData.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondoPokemon1.png">
+      <PackagePath>Assets\fondoPokemon1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondo_combate.png">
+      <PackagePath>Assets\fondo_combate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Fondo_MisPokemon.png">
+      <PackagePath>Assets\Fondo_MisPokemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fuerte.png">
+      <PackagePath>Assets\fuerte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\herido.png">
+      <PackagePath>Assets\herido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\iconoEspaña.png">
+      <PackagePath>Assets\iconoEspaña.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\iconoInglaterra.png">
+      <PackagePath>Assets\iconoInglaterra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\logoMisPokemon.png">
+      <PackagePath>Assets\logoMisPokemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocimaEnergia.png">
+      <PackagePath>Assets\pocimaEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocimaVida.png">
+      <PackagePath>Assets\pocimaVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocion amarilla.png">
+      <PackagePath>Assets\pocion amarilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocion amarilla1.png">
+      <PackagePath>Assets\pocion amarilla1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocion roja.png">
+      <PackagePath>Assets\pocion roja.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\pocion roja1.png">
+      <PackagePath>Assets\pocion roja1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\PokeAyuda.png">
+      <PackagePath>Assets\PokeAyuda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Pokedex.png">
+      <PackagePath>Assets\Pokedex.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Pokedex_logo.png">
+      <PackagePath>Assets\Pokedex_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\rayo.png">
+      <PackagePath>Assets\rayo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Square44x44Logo.targetsize-24_altform-unplated .png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated .png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\suenio.png">
+      <PackagePath>Assets\suenio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Surf.png">
+      <PackagePath>Assets\Surf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\titulo-ipokemon.png">
+      <PackagePath>Assets\titulo-ipokemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\UnJugador.png">
+      <PackagePath>Assets\UnJugador.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\alma.png">
+      <PackagePath>AssetsPiplupMLTN\alma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\bocadillo.png">
+      <PackagePath>AssetsPiplupMLTN\bocadillo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\bola_rayo_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\bola_rayo_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\burbujas.png">
+      <PackagePath>AssetsPiplupMLTN\burbujas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\carambano.png">
+      <PackagePath>AssetsPiplupMLTN\carambano.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\copo_de_nieve_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\copo_de_nieve_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\corazon_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\corazon_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\cruz.png">
+      <PackagePath>AssetsPiplupMLTN\cruz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\cubito_de_hielo_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\cubito_de_hielo_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\destello_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\destello_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\energia_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\energia_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\escudo_de_hielo_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\escudo_de_hielo_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\espiral_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\espiral_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\FondoFinal.png">
+      <PackagePath>AssetsPiplupMLTN\FondoFinal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\gota_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\gota_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\herida1.png">
+      <PackagePath>AssetsPiplupMLTN\herida1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\lloro.png">
+      <PackagePath>AssetsPiplupMLTN\lloro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\LockScreenLogo.scale-200.png">
+      <PackagePath>AssetsPiplupMLTN\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\ojeras_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\ojeras_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\ola.png">
+      <PackagePath>AssetsPiplupMLTN\ola.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\pocion_amarilla_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\pocion_amarilla_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\pocion_roja_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\pocion_roja_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\rayo_burbuja_sin_fondo.png">
+      <PackagePath>AssetsPiplupMLTN\rayo_burbuja_sin_fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\SplashScreen.scale-200.png">
+      <PackagePath>AssetsPiplupMLTN\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\Square150x150Logo.scale-200.png">
+      <PackagePath>AssetsPiplupMLTN\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\Square44x44Logo.scale-200.png">
+      <PackagePath>AssetsPiplupMLTN\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>AssetsPiplupMLTN\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\StoreLogo.png">
+      <PackagePath>AssetsPiplupMLTN\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\tabla_surf.png">
+      <PackagePath>AssetsPiplupMLTN\tabla_surf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\Wide310x150Logo.scale-200.png">
+      <PackagePath>AssetsPiplupMLTN\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAronMCC\Imagen fondo.jpg">
+      <PackagePath>AssetsAronMCC\Imagen fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\escudo1.jpg">
+      <PackagePath>AssetsAzumarillACR\escudo1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\fondo.jpg">
+      <PackagePath>AssetsAzumarillACR\fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\fondo1.jpg">
+      <PackagePath>AssetsAzumarillACR\fondo1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\fondo1.jpg">
+      <PackagePath>AssetsButterFreeACC\fondo1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\fondo.jpg">
+      <PackagePath>AssetsChandelureNDAA\fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\Fondo.jpg">
+      <PackagePath>AssetsCharmanderFJDR\Fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\escenario2.jpg">
+      <PackagePath>AssetsDracofireGDLRS\escenario2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\escenariopokemon.jpg">
+      <PackagePath>AssetsDragoniteCSD\escenariopokemon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsGengarJCC\z10o_buuk_210129.jpg">
+      <PackagePath>AssetsGengarJCC\z10o_buuk_210129.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsMakuhitaAPQ\fondo.jpg">
+      <PackagePath>AssetsMakuhitaAPQ\fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\charizard.jpg">
+      <PackagePath>Assets\CharizardASM\charizard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\escudo1.jpg">
+      <PackagePath>Assets\escudo1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondo.jpg">
+      <PackagePath>Assets\fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondo1.jpg">
+      <PackagePath>Assets\fondo1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\fondo_lucha.jpg">
+      <PackagePath>Assets\fondo_lucha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Fondo_Pokeball.jpg">
+      <PackagePath>Assets\Fondo_Pokeball.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\CabezazoRalentizado.mp3">
+      <PackagePath>AssetsArticunoACG\CabezazoRalentizado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\DerrotadoBien.mp3">
+      <PackagePath>AssetsArticunoACG\DerrotadoBien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\Escudo.mp3">
+      <PackagePath>AssetsArticunoACG\Escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\RayoHielo.mp3">
+      <PackagePath>AssetsArticunoACG\RayoHielo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsArticunoACG\RecuperarVida.mp3">
+      <PackagePath>AssetsArticunoACG\RecuperarVida.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\escudo.mp3">
+      <PackagePath>AssetsButterFreeACC\escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\muerte.mp3">
+      <PackagePath>AssetsButterFreeACC\muerte.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsButterFreeACC\tornado.mp3">
+      <PackagePath>AssetsButterFreeACC\tornado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\AtaqueDebilSonido.mp3">
+      <PackagePath>AssetsChandelureNDAA\AtaqueDebilSonido.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\escudo.mp3">
+      <PackagePath>AssetsDracofireGDLRS\escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\esquivar.mp3">
+      <PackagePath>AssetsDracofireGDLRS\esquivar.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDracofireGDLRS\lanzallamas.mp3">
+      <PackagePath>AssetsDracofireGDLRS\lanzallamas.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Ataque.mp3">
+      <PackagePath>AssetsDragoniteCSD\Ataque.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\cansado.mp3">
+      <PackagePath>AssetsDragoniteCSD\cansado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\CuraVida.mp3">
+      <PackagePath>AssetsDragoniteCSD\CuraVida.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\default.mp3">
+      <PackagePath>AssetsDragoniteCSD\default.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\Enfado.mp3">
+      <PackagePath>AssetsDragoniteCSD\Enfado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\escudo.mp3">
+      <PackagePath>AssetsDragoniteCSD\escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\herido.mp3">
+      <PackagePath>AssetsDragoniteCSD\herido.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\muertedef.mp3">
+      <PackagePath>AssetsDragoniteCSD\muertedef.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CabezazoRalentizado.mp3">
+      <PackagePath>Assets\CabezazoRalentizado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\Audio\evolucion.mp3">
+      <PackagePath>Assets\CharizardASM\Audio\evolucion.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\Audio\garra.mp3">
+      <PackagePath>Assets\CharizardASM\Audio\garra.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\Audio\lanzallamas.mp3">
+      <PackagePath>Assets\CharizardASM\Audio\lanzallamas.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\Audio\mewing.mp3">
+      <PackagePath>Assets\CharizardASM\Audio\mewing.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\CharizardASM\Audio\recuperado.mp3">
+      <PackagePath>Assets\CharizardASM\Audio\recuperado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\DerrotadoBien.mp3">
+      <PackagePath>Assets\DerrotadoBien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\Escudo.mp3">
+      <PackagePath>Assets\Escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\RayoHielo.mp3">
+      <PackagePath>Assets\RayoHielo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\RecuperarVida.mp3">
+      <PackagePath>Assets\RecuperarVida.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_cansado.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_cansado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_derrotado.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_derrotado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_descanso.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_descanso.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_escudo.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_escudo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_frioPolar.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_frioPolar.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_surf.mp3">
+      <PackagePath>AssetsPiplupMLTN\sonido_surf.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\bolaAgua.gif">
+      <PackagePath>AssetsAzumarillACR\bolaAgua.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\bolaAgua1.gif">
+      <PackagePath>AssetsAzumarillACR\bolaAgua1.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\bolaFuego.gif">
+      <PackagePath>AssetsAzumarillACR\bolaFuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\bolaFuego.gif">
+      <PackagePath>AssetsCharmanderFJDR\bolaFuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsCharmanderFJDR\fuego.gif">
+      <PackagePath>AssetsCharmanderFJDR\fuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\bolaAgua.gif">
+      <PackagePath>Assets\bolaAgua.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\bolaAgua1.gif">
+      <PackagePath>Assets\bolaAgua1.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\bolaFuego.gif">
+      <PackagePath>Assets\bolaFuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsAzumarillACR\bolaAgua1.jfif">
+      <PackagePath>AssetsAzumarillACR\bolaAgua1.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Assets\bolaAgua1.jfif">
+      <PackagePath>Assets\bolaAgua1.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\AtaqueFuerteSonido.mp4">
+      <PackagePath>AssetsChandelureNDAA\AtaqueFuerteSonido.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\CansadoSonido.mp4">
+      <PackagePath>AssetsChandelureNDAA\CansadoSonido.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\HeridoSonido.mp4">
+      <PackagePath>AssetsChandelureNDAA\HeridoSonido.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\MuerteSonido.mp4">
+      <PackagePath>AssetsChandelureNDAA\MuerteSonido.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\Normal.mp4">
+      <PackagePath>AssetsChandelureNDAA\Normal.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\VidaSonidoFeliz.mp4">
+      <PackagePath>AssetsChandelureNDAA\VidaSonidoFeliz.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsChandelureNDAA\VueloSonido.mp4">
+      <PackagePath>AssetsChandelureNDAA\VueloSonido.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\colazo.wav">
+      <PackagePath>AssetsDragoniteCSD\colazo.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsDragoniteCSD\explosion.wav">
+      <PackagePath>AssetsDragoniteCSD\explosion.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\AssetsPiplupMLTN\sonido_herir.m4a">
+      <PackagePath>AssetsPiplupMLTN\sonido_herir.m4a</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\IPOkemon.xr.xml">
+      <PackagePath>IPOkemon.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\AcercaDe.xbf">
+      <PackagePath>AcercaDe.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\AronMCC.xbf">
+      <PackagePath>AronMCC.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\ArticunoACG.xbf">
+      <PackagePath>ArticunoACG.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\AzumarillACR.xbf">
+      <PackagePath>AzumarillACR.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\ButterFreeACC.xbf">
+      <PackagePath>ButterFreeACC.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\ChandelureNDAA.xbf">
+      <PackagePath>ChandelureNDAA.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\CharizardASM.xbf">
+      <PackagePath>CharizardASM.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\CharmanderFJDR.xbf">
+      <PackagePath>CharmanderFJDR.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\Combate.xbf">
+      <PackagePath>Combate.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\DracofireGDLRS.xbf">
+      <PackagePath>DracofireGDLRS.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\DragoniteCSD.xbf">
+      <PackagePath>DragoniteCSD.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\GengarJCC.xbf">
+      <PackagePath>GengarJCC.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\Inicio.xbf">
+      <PackagePath>Inicio.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\MakuhitaAPQ2.xbf">
+      <PackagePath>MakuhitaAPQ2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\MisPoke.xbf">
+      <PackagePath>MisPoke.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\PaginaPrueba.xbf">
+      <PackagePath>PaginaPrueba.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\PiplupMLTN.xbf">
+      <PackagePath>PiplupMLTN.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\PokeData.xbf">
+      <PackagePath>PokeData.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\PokeDex.xbf">
+      <PackagePath>PokeDex.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\SeleccionarPokemon.xbf">
+      <PackagePath>SeleccionarPokemon.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\G531\Desktop\IPOkemonBuena1\IPOkemonBuena\Nuevo Archivo WinRAR ZIP\IPOkemon %281%29\IPOkemon %281%29\IPOkemon\IPOkemon\bin\x86\Debug\Core\IPOkemon.exe">
+      <PackagePath>IPOkemon.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

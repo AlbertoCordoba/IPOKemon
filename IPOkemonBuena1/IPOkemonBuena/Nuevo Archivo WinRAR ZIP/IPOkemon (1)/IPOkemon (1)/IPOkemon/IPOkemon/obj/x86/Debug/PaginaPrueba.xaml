@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="IPOkemon.PaginaPrueba"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IPOkemon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="50"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="127*"/>
+            <ColumnDefinition Width="127*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <Image x:ConnectionId='2' x:Name="imgFondo" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="/Assets/fondo_lucha.jpg" Stretch="UniformToFill"/>
+
+        <ContentControl x:ConnectionId='3' x:Name="ContenedorPokemon1"/>
+        <ContentControl x:ConnectionId='4' x:Name="ContenedorPokemon2" Grid.Column="1"/>
+        <ContentControl x:ConnectionId='5' x:Name="ContenedorBotones1" Grid.Row="1">
+            <Grid Height="440" Width="740">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:ConnectionId='13' x:Name="btnAtaqueFuerte" Content="Ataque Fuerte"                               Style="{StaticResource ButtonStyle}" Grid.Column="0" Margin="75,0,0,0" Width="190" Height="76" />
+                <Button x:ConnectionId='14' x:Name="btnAtaqueFlojo" Content="Ataque Flojo"                              Style="{StaticResource ButtonStyle}" Height="76" Width="190" Grid.ColumnSpan="2" Margin="321,0,0,0" />
+                <Button x:ConnectionId='15' x:Name="btnActivarEscudo" Content="Activar Escudo"                                Style="{StaticResource ButtonStyle}" Grid.Column="0" Margin="75,198,0,0" Width="190" Height="76" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <Button x:ConnectionId='16' x:Name="btnRendirse1" Content="Rendirse"                   Style="{StaticResource ButtonStyle}" Margin="321,198,0,0" Width="190" Height="76" Grid.RowSpan="2" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            </Grid>
+        </ContentControl>
+
+        <ContentControl x:ConnectionId='6' x:Name="ContenedorBotones2" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+            <Grid Height="440" Width="740">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:ConnectionId='9' x:Name="btnAtaqueFuerte1" Content="Ataque Fuerte"                                Style="{StaticResource ButtonStyle}" Grid.Column="0" Margin="75,0,0,0" Width="190" Height="76" />
+                <Button x:ConnectionId='10' x:Name="btnAtaqueFlojo1" Content="Ataque Flojo"                               Style="{StaticResource ButtonStyle}" Height="76" Width="190" Grid.ColumnSpan="2" Margin="321,0,0,0" />
+                <Button x:ConnectionId='11' x:Name="btnActivarEscudo1" Content="Activar Escudo"                                 Style="{StaticResource ButtonStyle}" Grid.Column="0" Margin="75,198,0,0" Width="190" Height="76" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <Button x:ConnectionId='12' x:Name="btnRendirse2" Content="Rendirse"                   Style="{StaticResource ButtonStyle}" Margin="321,198,0,0" Width="190" Height="76" Grid.RowSpan="2" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            </Grid>
+        </ContentControl>
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <Grid>
+                <Rectangle Fill="Beige"/>
+                <TextBlock x:ConnectionId='8' x:Name="txtbEsperaJ1" TextWrapping="Wrap" Text="Esperando al jugador 1..." FontSize="50" TextAlignment="Center" Foreground="Black" VerticalAlignment="Center"/>
+            </Grid>
+        </Viewbox>
+        <Viewbox Grid.Row="1">
+            <Grid>
+                <Rectangle Fill="Beige"/>
+                <TextBlock x:ConnectionId='7' x:Name="txtbEsperaJ2" TextWrapping="Wrap" Text="Esperando al jugador 2..." FontSize="60" TextAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Foreground="Black"/>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Page>
+

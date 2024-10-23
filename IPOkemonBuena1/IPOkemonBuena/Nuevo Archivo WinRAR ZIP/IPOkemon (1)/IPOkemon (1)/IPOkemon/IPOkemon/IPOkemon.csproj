@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{F069FEEB-E486-44CA-AEB7-8386172E5349}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IPOkemon</RootNamespace>
+    <AssemblyName>IPOkemon</AssemblyName>
+    <DefaultLanguage>es-ES</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22621.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AcercaDe.xaml.cs">
+      <DependentUpon>AcercaDe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AronMCC.xaml.cs">
+      <DependentUpon>AronMCC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ArticunoACG.xaml.cs">
+      <DependentUpon>ArticunoACG.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AzumarillACR.xaml.cs">
+      <DependentUpon>AzumarillACR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ButterFreeACC.xaml.cs">
+      <DependentUpon>ButterFreeACC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChandelureNDAA.xaml.cs">
+      <DependentUpon>ChandelureNDAA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CharizardASM.xaml.cs">
+      <DependentUpon>CharizardASM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CharmanderFJDR.xaml.cs">
+      <DependentUpon>CharmanderFJDR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Combate.xaml.cs">
+      <DependentUpon>Combate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DracofireGDLRS.xaml.cs">
+      <DependentUpon>DracofireGDLRS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DragoniteCSD.xaml.cs">
+      <DependentUpon>DragoniteCSD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GengarJCC.xaml.cs">
+      <DependentUpon>GengarJCC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.xaml.cs">
+      <DependentUpon>Inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="iPokemon.cs" />
+    <Compile Include="iPokemon1.cs" />
+    <Compile Include="iPokemon2.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MakuhitaAPQ2.xaml.cs">
+      <DependentUpon>MakuhitaAPQ2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MisPoke.xaml.cs">
+      <DependentUpon>MisPoke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaPrueba.xaml.cs">
+      <DependentUpon>PaginaPrueba.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PiplupMLTN.xaml.cs">
+      <DependentUpon>PiplupMLTN.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PokeData.xaml.cs">
+      <DependentUpon>PokeData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PokeDex.xaml.cs">
+      <DependentUpon>PokeDex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionarPokemon.xaml.cs">
+      <DependentUpon>SeleccionarPokemon.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AssetsAronMCC\Energia.png" />
+    <Content Include="AssetsAronMCC\escudoRoca.png" />
+    <Content Include="AssetsAronMCC\Imagen fondo.jpg" />
+    <Content Include="AssetsAronMCC\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsAronMCC\PocionEnergia.png" />
+    <Content Include="AssetsAronMCC\PocionVida.png" />
+    <Content Include="AssetsAronMCC\SplashScreen.scale-100.png" />
+    <Content Include="AssetsAronMCC\SplashScreen.scale-125.png" />
+    <Content Include="AssetsAronMCC\SplashScreen.scale-150.png" />
+    <Content Include="AssetsAronMCC\SplashScreen.scale-200.png" />
+    <Content Include="AssetsAronMCC\SplashScreen.scale-400.png" />
+    <Content Include="AssetsAronMCC\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsAronMCC\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsAronMCC\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsAronMCC\StoreLogo.png" />
+    <Content Include="AssetsAronMCC\Vida.png" />
+    <Content Include="AssetsAronMCC\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsArticunoACG\CabezazoRalentizado.mp3" />
+    <Content Include="AssetsArticunoACG\corazonVida.png" />
+    <Content Include="AssetsArticunoACG\DerrotadoBien.mp3" />
+    <Content Include="AssetsArticunoACG\energia.png" />
+    <Content Include="AssetsArticunoACG\Escudo.mp3" />
+    <Content Include="AssetsArticunoACG\fondoPokemon1.png" />
+    <Content Include="AssetsArticunoACG\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsArticunoACG\pocimaEnergia.png" />
+    <Content Include="AssetsArticunoACG\pocimaVida.png" />
+    <Content Include="AssetsArticunoACG\RayoHielo.mp3" />
+    <Content Include="AssetsArticunoACG\RecuperarVida.mp3" />
+    <Content Include="AssetsArticunoACG\SplashScreen.scale-200.png" />
+    <Content Include="AssetsArticunoACG\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsArticunoACG\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsArticunoACG\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsArticunoACG\StoreLogo.png" />
+    <Content Include="AssetsArticunoACG\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsAzumarillACR\bolaAgua.gif" />
+    <Content Include="AssetsAzumarillACR\bolaAgua1.gif" />
+    <Content Include="AssetsAzumarillACR\bolaAgua1.jfif" />
+    <Content Include="AssetsAzumarillACR\bolaFuego.gif" />
+    <Content Include="AssetsAzumarillACR\cansado.png" />
+    <Content Include="AssetsAzumarillACR\corazon.png" />
+    <Content Include="AssetsAzumarillACR\debil.png" />
+    <Content Include="AssetsAzumarillACR\derrotado.png" />
+    <Content Include="AssetsAzumarillACR\escudo.png" />
+    <Content Include="AssetsAzumarillACR\escudo1.jpg" />
+    <Content Include="AssetsAzumarillACR\fondo.jpg" />
+    <Content Include="AssetsAzumarillACR\fondo1.jpg" />
+    <Content Include="AssetsAzumarillACR\fuerte.png" />
+    <Content Include="AssetsAzumarillACR\herido.png" />
+    <Content Include="AssetsAzumarillACR\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsAzumarillACR\pocion amarilla.png" />
+    <Content Include="AssetsAzumarillACR\pocion amarilla1.png" />
+    <Content Include="AssetsAzumarillACR\pocion roja.png" />
+    <Content Include="AssetsAzumarillACR\pocion roja1.png" />
+    <Content Include="AssetsAzumarillACR\rayo.png" />
+    <Content Include="AssetsAzumarillACR\SplashScreen.scale-200.png" />
+    <Content Include="AssetsAzumarillACR\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsAzumarillACR\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsAzumarillACR\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsAzumarillACR\StoreLogo.png" />
+    <Content Include="AssetsAzumarillACR\suenio.png" />
+    <Content Include="AssetsAzumarillACR\Surf.png" />
+    <Content Include="AssetsAzumarillACR\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsButterFreeACC\brillo.png" />
+    <Content Include="AssetsButterFreeACC\capullo.png" />
+    <Content Include="AssetsButterFreeACC\cicatrizGrande.png" />
+    <Content Include="AssetsButterFreeACC\energia.png" />
+    <Content Include="AssetsButterFreeACC\escudo.mp3" />
+    <Content Include="AssetsButterFreeACC\escudo.png" />
+    <Content Include="AssetsButterFreeACC\fondo1.jpg" />
+    <Content Include="AssetsButterFreeACC\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsButterFreeACC\muerte.mp3" />
+    <Content Include="AssetsButterFreeACC\nube.png" />
+    <Content Include="AssetsButterFreeACC\ojos_muerte.png" />
+    <Content Include="AssetsButterFreeACC\pocima_energia.png" />
+    <Content Include="AssetsButterFreeACC\pocima_vida.png" />
+    <Content Include="AssetsButterFreeACC\SplashScreen.scale-200.png" />
+    <Content Include="AssetsButterFreeACC\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsButterFreeACC\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsButterFreeACC\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsButterFreeACC\StoreLogo.png" />
+    <Content Include="AssetsButterFreeACC\tirita.png" />
+    <Content Include="AssetsButterFreeACC\tornado.mp3" />
+    <Content Include="AssetsButterFreeACC\tronado.png" />
+    <Content Include="AssetsButterFreeACC\vida.png" />
+    <Content Include="AssetsButterFreeACC\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsChandelureNDAA\AtaqueDebilSonido.mp3" />
+    <Content Include="AssetsChandelureNDAA\AtaqueFuerteSonido.mp4" />
+    <Content Include="AssetsChandelureNDAA\CansadoSonido.mp4" />
+    <Content Include="AssetsChandelureNDAA\corazon.png" />
+    <Content Include="AssetsChandelureNDAA\fondo.jpg" />
+    <Content Include="AssetsChandelureNDAA\HeridoSonido.mp4" />
+    <Content Include="AssetsChandelureNDAA\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsChandelureNDAA\MuerteSonido.mp4" />
+    <Content Include="AssetsChandelureNDAA\Normal.mp4" />
+    <Content Include="AssetsChandelureNDAA\pocionAmarilla.png" />
+    <Content Include="AssetsChandelureNDAA\pocionMorada.png" />
+    <Content Include="AssetsChandelureNDAA\rayo.png" />
+    <Content Include="AssetsChandelureNDAA\SplashScreen.scale-200.png" />
+    <Content Include="AssetsChandelureNDAA\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsChandelureNDAA\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsChandelureNDAA\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsChandelureNDAA\StoreLogo.png" />
+    <Content Include="AssetsChandelureNDAA\VidaSonidoFeliz.mp4" />
+    <Content Include="AssetsChandelureNDAA\VueloSonido.mp4" />
+    <Content Include="AssetsChandelureNDAA\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsCharmanderFJDR\bolaFuego.gif" />
+    <Content Include="AssetsCharmanderFJDR\Energia.png" />
+    <Content Include="AssetsCharmanderFJDR\escudoFuego.png" />
+    <Content Include="AssetsCharmanderFJDR\Fondo.jpg" />
+    <Content Include="AssetsCharmanderFJDR\fuego.gif" />
+    <Content Include="AssetsCharmanderFJDR\llama fuego.png" />
+    <Content Include="AssetsCharmanderFJDR\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsCharmanderFJDR\PocionEnergia.png" />
+    <Content Include="AssetsCharmanderFJDR\PocionVida.png" />
+    <Content Include="AssetsCharmanderFJDR\SplashScreen.scale-200.png" />
+    <Content Include="AssetsCharmanderFJDR\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsCharmanderFJDR\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsCharmanderFJDR\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsCharmanderFJDR\StoreLogo.png" />
+    <Content Include="AssetsCharmanderFJDR\Vida.png" />
+    <Content Include="AssetsCharmanderFJDR\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsDracofireGDLRS\escenario2.jpg" />
+    <Content Include="AssetsDracofireGDLRS\escudo.mp3" />
+    <Content Include="AssetsDracofireGDLRS\escudo.png" />
+    <Content Include="AssetsDracofireGDLRS\esquivar.mp3" />
+    <Content Include="AssetsDracofireGDLRS\imFondo.png" />
+    <Content Include="AssetsDracofireGDLRS\lanzallamas.mp3" />
+    <Content Include="AssetsDracofireGDLRS\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsDracofireGDLRS\pocion_escudo.png" />
+    <Content Include="AssetsDracofireGDLRS\pocion_vida.png" />
+    <Content Include="AssetsDracofireGDLRS\SplashScreen.scale-200.png" />
+    <Content Include="AssetsDracofireGDLRS\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsDracofireGDLRS\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsDracofireGDLRS\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsDracofireGDLRS\StoreLogo.png" />
+    <Content Include="AssetsDracofireGDLRS\vida.png" />
+    <Content Include="AssetsDracofireGDLRS\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsDragoniteCSD\angel.png" />
+    <Content Include="AssetsDragoniteCSD\arañazo.png" />
+    <Content Include="AssetsDragoniteCSD\Ataque.mp3" />
+    <Content Include="AssetsDragoniteCSD\cansado.mp3" />
+    <Content Include="AssetsDragoniteCSD\colazo.png" />
+    <Content Include="AssetsDragoniteCSD\colazo.wav" />
+    <Content Include="AssetsDragoniteCSD\CuraVida.mp3" />
+    <Content Include="AssetsDragoniteCSD\default.mp3" />
+    <Content Include="AssetsDragoniteCSD\Enfado.mp3" />
+    <Content Include="AssetsDragoniteCSD\escenariopokemon.jpg" />
+    <Content Include="AssetsDragoniteCSD\escudo.mp3" />
+    <Content Include="AssetsDragoniteCSD\escudoesfera.png" />
+    <Content Include="AssetsDragoniteCSD\escudoReal.png" />
+    <Content Include="AssetsDragoniteCSD\explosion.png" />
+    <Content Include="AssetsDragoniteCSD\explosion.wav" />
+    <Content Include="AssetsDragoniteCSD\herido.mp3" />
+    <Content Include="AssetsDragoniteCSD\herido.png" />
+    <Content Include="AssetsDragoniteCSD\humoenfado.png" />
+    <Content Include="AssetsDragoniteCSD\img_meteorito.png" />
+    <Content Include="AssetsDragoniteCSD\img_stamina.png" />
+    <Content Include="AssetsDragoniteCSD\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsDragoniteCSD\muertedef.mp3" />
+    <Content Include="AssetsDragoniteCSD\muerto.png" />
+    <Content Include="AssetsDragoniteCSD\oxigeno.png" />
+    <Content Include="AssetsDragoniteCSD\pocionstamina.png" />
+    <Content Include="AssetsDragoniteCSD\pocionvida.png" />
+    <Content Include="AssetsDragoniteCSD\recuperarenergiavida.png" />
+    <Content Include="AssetsDragoniteCSD\SplashScreen.scale-200.png" />
+    <Content Include="AssetsDragoniteCSD\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsDragoniteCSD\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsDragoniteCSD\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsDragoniteCSD\stamina.png" />
+    <Content Include="AssetsDragoniteCSD\StoreLogo.png" />
+    <Content Include="AssetsDragoniteCSD\sudor.png" />
+    <Content Include="AssetsDragoniteCSD\termometro.png" />
+    <Content Include="AssetsDragoniteCSD\Vidapokemon2.png" />
+    <Content Include="AssetsDragoniteCSD\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsGengarJCC\corazon.png" />
+    <Content Include="AssetsGengarJCC\energia.png" />
+    <Content Include="AssetsGengarJCC\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsGengarJCC\pocion.png" />
+    <Content Include="AssetsGengarJCC\pocionEnergia.png" />
+    <Content Include="AssetsGengarJCC\SplashScreen.png" />
+    <Content Include="AssetsGengarJCC\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsGengarJCC\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsGengarJCC\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsGengarJCC\StoreLogo.png" />
+    <Content Include="AssetsGengarJCC\Wide310x150Logo.scale-200.png" />
+    <Content Include="AssetsGengarJCC\z10o_buuk_210129.jpg" />
+    <Content Include="AssetsMakuhitaAPQ\Corazon.png" />
+    <Content Include="AssetsMakuhitaAPQ\Energia.png" />
+    <Content Include="AssetsMakuhitaAPQ\fondo.jpg" />
+    <Content Include="AssetsMakuhitaAPQ\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsMakuhitaAPQ\PocionEnergia.png" />
+    <Content Include="AssetsMakuhitaAPQ\PocionVida.png" />
+    <Content Include="AssetsMakuhitaAPQ\SplashScreen.scale-200.png" />
+    <Content Include="AssetsMakuhitaAPQ\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsMakuhitaAPQ\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsMakuhitaAPQ\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsMakuhitaAPQ\StoreLogo.png" />
+    <Content Include="AssetsMakuhitaAPQ\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\bolaAgua.gif" />
+    <Content Include="Assets\bolaAgua1.gif" />
+    <Content Include="Assets\bolaAgua1.jfif" />
+    <Content Include="Assets\bolaFuego.gif" />
+    <Content Include="Assets\CabezazoRalentizado.mp3" />
+    <Content Include="Assets\cansado.png" />
+    <Content Include="Assets\CharizardASM\Audio\evolucion.mp3" />
+    <Content Include="Assets\CharizardASM\Audio\garra.mp3" />
+    <Content Include="Assets\CharizardASM\Audio\lanzallamas.mp3" />
+    <Content Include="Assets\CharizardASM\Audio\mewing.mp3" />
+    <Content Include="Assets\CharizardASM\Audio\recuperado.mp3" />
+    <Content Include="Assets\CharizardASM\background.png" />
+    <Content Include="Assets\CharizardASM\background1.png" />
+    <Content Include="Assets\CharizardASM\blue_potion.png" />
+    <Content Include="Assets\CharizardASM\charizard.jpg" />
+    <Content Include="Assets\CharizardASM\espiral.png" />
+    <Content Include="Assets\CharizardASM\garra.png" />
+    <Content Include="Assets\CharizardASM\green_potion.png" />
+    <Content Include="Assets\CharizardASM\heart.png" />
+    <Content Include="Assets\CharizardASM\lanzallamas.png" />
+    <Content Include="Assets\CharizardASM\lanzallamas_azul.png" />
+    <Content Include="Assets\CharizardASM\mano_mewing.png" />
+    <Content Include="Assets\CharizardASM\mano_mewing_black.png" />
+    <Content Include="Assets\CharizardASM\mewing.png" />
+    <Content Include="Assets\CharizardASM\mewing_black.png" />
+    <Content Include="Assets\CharizardASM\shield.png" />
+    <Content Include="Assets\CombatePokemonStyle.png" />
+    <Content Include="Assets\corazon.png" />
+    <Content Include="Assets\corazonVida.png" />
+    <Content Include="Assets\debil.png" />
+    <Content Include="Assets\derrotado.png" />
+    <Content Include="Assets\DerrotadoBien.mp3" />
+    <Content Include="Assets\DosJugadores.png" />
+    <Content Include="Assets\ElegirPokemonStyle.png" />
+    <Content Include="Assets\energia.png" />
+    <Content Include="Assets\Escudo.mp3" />
+    <Content Include="Assets\escudo.png" />
+    <Content Include="Assets\escudo1.jpg" />
+    <Content Include="Assets\flecha-atras.png" />
+    <Content Include="Assets\fondo.jpg" />
+    <Content Include="Assets\fondo1.jpg" />
+    <Content Include="Assets\fondoinicio.png" />
+    <Content Include="Assets\fondoPokeAyuda.png" />
+    <Content Include="Assets\fondoPokeData.png" />
+    <Content Include="Assets\fondoPokemon1.png" />
+    <Content Include="Assets\fondo_combate.png" />
+    <Content Include="Assets\fondo_lucha.jpg" />
+    <Content Include="Assets\Fondo_MisPokemon.png" />
+    <Content Include="Assets\Fondo_Pokeball.jpg" />
+    <Content Include="Assets\fuerte.png" />
+    <Content Include="Assets\herido.png" />
+    <Content Include="Assets\iconoEspaña.png" />
+    <Content Include="Assets\iconoInglaterra.png" />
+    <Content Include="Assets\logoMisPokemon.png" />
+    <Content Include="Assets\pocimaEnergia.png" />
+    <Content Include="Assets\pocimaVida.png" />
+    <Content Include="Assets\pocion amarilla.png" />
+    <Content Include="Assets\pocion amarilla1.png" />
+    <Content Include="Assets\pocion roja.png" />
+    <Content Include="Assets\pocion roja1.png" />
+    <Content Include="Assets\PokeAyuda.png" />
+    <Content Include="Assets\Pokedex.png" />
+    <Content Include="Assets\Pokedex_logo.png" />
+    <Content Include="Assets\rayo.png" />
+    <Content Include="Assets\RayoHielo.mp3" />
+    <Content Include="Assets\RecuperarVida.mp3" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated .png" />
+    <Content Include="Assets\suenio.png" />
+    <Content Include="Assets\Surf.png" />
+    <Content Include="Assets\titulo-ipokemon.png" />
+    <Content Include="Assets\UnJugador.png" />
+    <Content Include="AssetsPiplupMLTN\alma.png" />
+    <Content Include="AssetsPiplupMLTN\bocadillo.png" />
+    <Content Include="AssetsPiplupMLTN\bola_rayo_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\burbujas.png" />
+    <Content Include="AssetsPiplupMLTN\carambano.png" />
+    <Content Include="AssetsPiplupMLTN\copo_de_nieve_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\corazon_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\cruz.png" />
+    <Content Include="AssetsPiplupMLTN\cubito_de_hielo_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\destello_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\energia_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\escudo_de_hielo_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\espiral_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\FondoFinal.png" />
+    <Content Include="AssetsPiplupMLTN\gota_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\herida1.png" />
+    <Content Include="AssetsPiplupMLTN\lloro.png" />
+    <Content Include="AssetsPiplupMLTN\LockScreenLogo.scale-200.png" />
+    <Content Include="AssetsPiplupMLTN\ojeras_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\ola.png" />
+    <Content Include="AssetsPiplupMLTN\pocion_amarilla_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\pocion_roja_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\rayo_burbuja_sin_fondo.png" />
+    <Content Include="AssetsPiplupMLTN\sonido_cansado.mp3" />
+    <Content Include="AssetsPiplupMLTN\sonido_derrotado.mp3" />
+    <Content Include="AssetsPiplupMLTN\sonido_descanso.mp3" />
+    <Content Include="AssetsPiplupMLTN\sonido_escudo.mp3" />
+    <Content Include="AssetsPiplupMLTN\sonido_frioPolar.mp3" />
+    <Content Include="AssetsPiplupMLTN\sonido_herir.m4a" />
+    <Content Include="AssetsPiplupMLTN\sonido_surf.mp3" />
+    <Content Include="AssetsPiplupMLTN\SplashScreen.scale-200.png" />
+    <Content Include="AssetsPiplupMLTN\Square150x150Logo.scale-200.png" />
+    <Content Include="AssetsPiplupMLTN\Square44x44Logo.scale-200.png" />
+    <Content Include="AssetsPiplupMLTN\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="AssetsPiplupMLTN\StoreLogo.png" />
+    <Content Include="AssetsPiplupMLTN\tabla_surf.png" />
+    <Content Include="AssetsPiplupMLTN\Wide310x150Logo.scale-200.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AcercaDe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AronMCC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ArticunoACG.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AzumarillACR.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ButterFreeACC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ChandelureNDAA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CharizardASM.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CharmanderFJDR.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Combate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DracofireGDLRS.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DragoniteCSD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GengarJCC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MakuhitaAPQ2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MisPoke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PaginaPrueba.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PiplupMLTN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PokeData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PokeDex.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SeleccionarPokemon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.14</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
